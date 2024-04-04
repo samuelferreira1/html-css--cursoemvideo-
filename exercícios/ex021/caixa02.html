@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: gainsboro;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(91, 91, 255);
+            text-align: center;
+            padding: 8px;
+            margin: 8px;
+        }
+
+        nav{
+            background-color: darkkhaki;
+            padding: 3px;
+            box-shadow: 3px 5px 1px black;
+        }
+
+        nav > a {
+             text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 8px;
+            margin: 8px;
+            border-radius: 14px 0px;
+        }
+        
+        article {
+            background-color: lightgrey;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(158, 157, 157);
+
+        }
+        
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link01</a>
+            <a href="#">Link02</a>
+            <a href="#">Link03</a>
+            <a href="#">Link04</a>
+            <a href="#">Link05</a>
+        </nav>
+    </header>
+     <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <article>
+                    <h2>Noticias sobre o mundo</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero distinctio dolores beatae nisi vel, repudiandae pariatur vero est tempora earum magnam inventore ducimus officia exercitationem, provident numquam voluptate cumque fuga.</p>
+                    <aside>
+                        <p>Artigo escrito por Samuel</p>
+                    </aside>
+                </article>
+            </article>
+        </section>
+      </main>
+    <footer>
+        <p>Desenvolvido por Samuel</p>
+    </footer>
+
+    
+</body>
+</html>
